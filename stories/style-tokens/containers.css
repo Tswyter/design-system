@@ -1,0 +1,11 @@
+@import './colors.css';
+
+:root {
+  --container-01: var(--white);
+  --container-02: var(--gray-20);
+  --container-03: var(--gray-50);
+
+  --dark-container-01: var(--gray-100);
+  --dark-container-02: var(--gray-80);
+  --dark-container-03: var(--gray-70);
+}

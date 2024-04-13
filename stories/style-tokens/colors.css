@@ -1,0 +1,95 @@
+root {
+  --red-10: red;
+  --red-20: red;
+  --red-30: red;
+  --red-40: red;
+  --red-50: red;
+  --red-60: red;
+  --red-70: red;
+  --red-80: red;
+  --red-90: red;
+  --red-100: red;
+  
+  --red-10: red;
+  --red-20: red;
+  --red-30: red;
+  --red-40: red;
+  --red-50: red;
+  --red-60: red;
+  --red-70: red;
+  --red-80: red;
+  --red-90: red;
+  --red-100: red;
+  
+  --orange-10: orange;
+  --orange-20: orange;
+  --orange-30: orange;
+  --orange-40: orange;
+  --orange-50: orange;
+  --orange-60: orange;
+  --orange-70: orange;
+  --orange-80: orange;
+  --orange-90: orange;
+  --orange-100: orange;
+  
+  --yellow-10: yellow;
+  --yellow-20: yellow;
+  --yellow-30: yellow;
+  --yellow-40: yellow;
+  --yellow-50: yellow;
+  --yellow-60: yellow;
+  --yellow-70: yellow;
+  --yellow-80: yellow;
+  --yellow-90: yellow;
+  --yellow-100: yellow;
+  
+  --green-10: green;
+  --green-20: green;
+  --green-30: green;
+  --green-40: green;
+  --green-50: green;
+  --green-60: green;
+  --green-70: green;
+  --green-80: green;
+  --green-90: green;
+  --green-100: green;
+  
+  --blue-10: blue;
+  --blue-20: blue;
+  --blue-30: blue;
+  --blue-40: blue;
+  --blue-50: blue;
+  --blue-60: blue;
+  --blue-70: blue;
+  --blue-80: blue;
+  --blue-90: blue;
+  --blue-100: blue;
+  
+  --purple-10: purple;
+  --purple-20: purple;
+  --purple-30: purple;
+  --purple-40: purple;
+  --purple-50: purple;
+  --purple-60: purple;
+  --purple-70: purple;
+  --purple-80: purple;
+  --purple-90: purple;
+  --purple-100: purple;
+
+  --gray-10: gray;
+  --gray-20: gray;
+  --gray-30: gray;
+  --gray-40: gray;
+  --gray-50: gray;
+  --gray-60: gray;
+  --gray-70: gray;
+  --gray-80: gray;
+  --gray-90: gray;
+  --gray-100: gray;
+
+  --white: white;
+  --black: black;
+
+  --primary-color: var(--blue-50);
+  --secondary-color: var(--purple-10);
+}

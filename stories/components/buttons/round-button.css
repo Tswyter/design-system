@@ -1,0 +1,23 @@
+.swyt-round-button {
+  background: darkblue;
+  border: 1px solid darkblue;
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+}
+
+.swyt-round-button .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.swyt-round-button.-secondary {
+  background: green;
+  border-color: green;
+}

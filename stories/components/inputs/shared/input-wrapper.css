@@ -1,0 +1,24 @@
+.swyt-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  --font-size: 0.875rem;
+}
+
+.swyt-label-text {
+  font-weight: 600;
+}
+
+.swyt-help-text {
+  font-size: var(--font-size);
+}
+
+.swyt-disclaimer-text {
+  font-size: var(--font-size);
+  color: rgb(59, 64, 70);
+}
+
+.swyt-error-text {
+  font-size: var(--font-size);
+  color: red;
+  margin-top: 0;
+}

@@ -1,0 +1,13 @@
+.swyt-button {
+  background: darkblue;
+  border: 1px solid darkblue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.swyt-button.-secondary {
+  background: green;
+  border-color: green;
+}
