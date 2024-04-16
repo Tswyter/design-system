@@ -1,0 +1,61 @@
+:root {
+  --caret-size: 6px;
+}
+
+.swyt-tooltip {
+  position: absolute;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.swyt-tooltip[aria-hidden="true"] {
+  display: none;
+}
+
+.swyt-tooltip[aria-hidden="false"] {
+  display: block;
+}
+
+.swyt-tooltip::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: white;
+  border-left: var(--caret-size) solid transparent;
+  border-right: var(--caret-size) solid transparent;
+  border-bottom: var(--caret-size) solid white;
+  border-top: var(--caret-size) solid transparent;
+  top: calc(0px - var(--caret-size));
+  transform: rotate(45deg);
+  box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.swyt-tooltip.-bottom::before {
+  top: calc(100% - var(--caret-size));
+  bottom: auto;
+  transform: rotate(225deg);
+}
+
+.swyt-tooltip.-right::before {
+  left: calc(100% - var(--caret-size));
+  top: 50%;
+  right: auto;
+  transform: translateY(-50%) rotate(135deg);
+}
+
+.swyt-tooltip.-top::before {
+  top: calc(0px - var(--caret-size));
+  bottom: auto;
+  transform: rotate(45deg);
+}
+
+.swyt-tooltip.-left::before {
+  left: calc(0px - var(--caret-size));
+  top: 50%;
+  right: auto;
+  transform: translateY(-50%) rotate(-45deg);
+}
