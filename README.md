@@ -1,1 +1,2 @@
-# design-system
+# Swyt Design System
+This design system is meant to act as a bare-bones library of a bunch of very basic react components that you may need. They are minimally styled to achieve basic accessibilty while being easy to add your own styles/theme on top of.
