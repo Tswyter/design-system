@@ -1,0 +1,27 @@
+.swyt-accordion {
+  border: 1px solid #e0e0e0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.swyt-accordion-button {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  border: 0;
+  background: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+.swyt-accordion-content {
+  display: none;
+  padding: 0 1rem 1rem;
+}
+
+.swyt-accordion-content[aria-hidden="false"] {
+  display: block;
+}
